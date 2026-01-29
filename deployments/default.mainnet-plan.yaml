@@ -11,14 +11,14 @@ plan:
         - contract-publish:
             contract-name: mock-btc
             expected-sender: SP1GNDB8SXJ51GBMSVVXMWGTPRFHGSMWNNBEY25A4
-            cost: 9603511
+            cost: 14040
             path: contracts/mock-btc.clar
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: recurbit
             expected-sender: SP1GNDB8SXJ51GBMSVVXMWGTPRFHGSMWNNBEY25A4
-            cost: 5173849
+            cost: 65560
             path: contracts/recurbit.clar
             anchor-block-only: true
             clarity-version: 2
